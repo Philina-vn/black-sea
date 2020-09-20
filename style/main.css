@@ -1,0 +1,219 @@
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+/*header-------*/
+.header .container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #4C97A2;
+}
+
+.header__logo {
+  font-family: 'Cherry Swash',sans-serif;
+  font-size: 40px;
+  color: #FFFFFF;
+  
+}
+
+.header__nav {
+  margin-top: 40px;
+}
+
+nav .header__link {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  text-decoration: none;
+  color: #DCE3E4;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+/*promo--------------*/
+.promo .container {
+  background: url(../images/sea.png);
+  margin: 0 auto;
+  width: 1280px;
+  padding-top: 129px;
+  align-items: center;
+}
+
+.promo__title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #E4E4E4;
+  font-size: 44px;
+  text-align: center;
+}
+
+.promo__btn {
+  background-color: transparent;
+  border-color: #FFFFFF;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #E4E4E4;
+  width: 234px;
+  height: 47px;
+  border-radius: 5px;
+  margin-left: 520px;
+}
+
+.promo__list {
+  margin-top: 117px;
+  text-align: center;
+  padding-bottom: 30px ;
+}
+.promo__item {
+  display: inline-block;
+  margin-left: 10px;
+  color: #FFFFFF;
+}
+/*main--------------*/
+.main .container {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  width: 1280px;
+  padding-top: 83px;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4C505D;
+  font-size: 30px;
+  text-align: center;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4C505D;
+  font-size: 14px;
+  text-align: center;
+}
+.main-list__icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  padding-bottom: 83px;
+}
+
+.main-icon-cart {
+  background: url(../images/cart.png) no-repeat;
+  width: 63px;
+  height: 58px;
+  margin-right: 130px;
+}
+.main-icon-planet {
+  background: url(../images/planet.png) no-repeat;
+  width: 63px;
+  height: 58px;
+  margin-right: 130px;
+}
+.main-icon-bag {
+  background: url(../images/bag.png) no-repeat;
+  width: 63px;
+  height: 58px;
+}
+/*testimonial--------------------*/
+.testimonial .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00D089;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 1280px;
+  padding-top: 95px;
+}
+
+.testimonial__dhavan {
+  width: 135px;
+  height: 135px;
+  border-radius: 65.25px;
+}
+blockquote {
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 18px;
+  padding-bottom: 95px;
+}
+
+.dhavan__quote {
+  display: flex;
+}
+.commas {
+  background: url(../images/commas.jpg) no-repeat;
+  width: 150px;
+  height: 100px;
+  margin-left: 180px;
+  margin-top: -80px;
+}
+.dhavan {
+  text-transform: uppercase;
+  color: #E4E4E4;
+  font-size: 26px;
+  margin-left: 40px;
+}
+/*contact------------------------*/
+.contact .container {
+  background: url(../images/map.png);
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 1280px;
+  padding-top: 53px;
+  padding-bottom: 37px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  opacity: 0.8;
+  border: none;
+  width: 430px;
+  height: 430px;
+  border-radius: 215px;
+}
+
+input {
+  width: 275px;
+  height: 31px;
+  opacity: 0.5;
+  
+}
+
+textarea {
+  width: 275px;
+  height: 81px;
+  opacity: 0.5;
+  font-family: Arial, Helvetica, sans-serif;
+  resize: none;
+}
+
+.form__submit {
+  background: url(../images/check.png) no-repeat;
+  opacity: 200;
+  height: 70px;
+  width: 70px;
+  border: none;
+}
+/*footer----------------------*/
+.footer .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00D089;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 1280px;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 1;
+}
